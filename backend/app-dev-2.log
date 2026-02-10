@@ -18,8 +18,7 @@
 [INFO] Copying 1 resource from src\test\resources to target\test-classes
 [INFO] 
 [INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ backend ---
-[INFO] Changes detected - recompiling the module! :dependency
-[INFO] Compiling 1 source file with javac [debug release 17] to target\test-classes
+[INFO] Nothing to compile - all classes are up to date
 [INFO] 
 [INFO] <<< spring-boot:3.2.2:run (default-cli) < test-compile @ backend <<<
 [INFO] 
@@ -35,40 +34,40 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.2)
 
-2026-02-10 02:56:51 - Starting CokmallApplication using Java 21.0.8 with PID 18068 (C:\PROJECT\cokupdated\backend\target\classes started by Joel Odufu in C:\PROJECT\cokupdated\backend)
-2026-02-10 02:56:51 - Running with Spring Boot v3.2.2, Spring v6.1.3
-2026-02-10 02:56:51 - The following 1 profile is active: "dev"
-2026-02-10 02:56:53 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-10 02:56:53 - Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
-2026-02-10 02:56:54 - Tomcat initialized with port 8080 (http)
-2026-02-10 02:56:54 - Starting service [Tomcat]
-2026-02-10 02:56:54 - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2026-02-10 02:56:54 - Initializing Spring embedded WebApplicationContext
-2026-02-10 02:56:54 - Root WebApplicationContext: initialization completed in 3425 ms
-2026-02-10 02:56:55 - Filter 'jwtAuthenticationFilter' configured for use
-2026-02-10 02:56:55 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-02-10 02:56:55 - HHH000412: Hibernate ORM core version 6.4.1.Final
-2026-02-10 02:56:55 - HHH000026: Second-level cache disabled
-2026-02-10 02:56:55 - No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-10 02:56:55 - HikariPool-1 - Starting...
-2026-02-10 02:56:56 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4f2544b0
-2026-02-10 02:56:56 - HikariPool-1 - Start completed.
-2026-02-10 02:56:56 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-02-10 02:56:57 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-10 02:56:57 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-10 02:56:58 - Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-02-10 02:56:59 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-10 02:56:59 - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
-2026-02-10 02:56:59 - Exposing 3 endpoint(s) beneath base path '/actuator'
-2026-02-10 02:56:59 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/cokmall/core/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure dispatcherTypeMatchers after anyRequest
-2026-02-10 02:56:59 - Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-02-10 02:56:59 - HikariPool-1 - Shutdown initiated...
-2026-02-10 02:56:59 - HikariPool-1 - Shutdown completed.
-2026-02-10 02:56:59 - Stopping service [Tomcat]
-2026-02-10 02:56:59 - 
+2026-02-10 02:57:20 - Starting CokmallApplication using Java 21.0.8 with PID 6424 (C:\PROJECT\cokupdated\backend\target\classes started by Joel Odufu in C:\PROJECT\cokupdated\backend)
+2026-02-10 02:57:20 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2026-02-10 02:57:20 - The following 1 profile is active: "dev"
+2026-02-10 02:57:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-10 02:57:21 - Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interface.
+2026-02-10 02:57:23 - Tomcat initialized with port 8080 (http)
+2026-02-10 02:57:23 - Starting service [Tomcat]
+2026-02-10 02:57:23 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-02-10 02:57:23 - Initializing Spring embedded WebApplicationContext
+2026-02-10 02:57:23 - Root WebApplicationContext: initialization completed in 3065 ms
+2026-02-10 02:57:23 - Filter 'jwtAuthenticationFilter' configured for use
+2026-02-10 02:57:24 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-10 02:57:24 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-02-10 02:57:24 - HHH000026: Second-level cache disabled
+2026-02-10 02:57:24 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-10 02:57:24 - HikariPool-1 - Starting...
+2026-02-10 02:57:25 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4f2544b0
+2026-02-10 02:57:25 - HikariPool-1 - Start completed.
+2026-02-10 02:57:25 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-10 02:57:27 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-10 02:57:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-10 02:57:27 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-10 02:57:29 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-10 02:57:29 - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2026-02-10 02:57:30 - Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-02-10 02:57:30 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/cokmall/core/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure dispatcherTypeMatchers after anyRequest
+2026-02-10 02:57:30 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-10 02:57:30 - HikariPool-1 - Shutdown initiated...
+2026-02-10 02:57:30 - HikariPool-1 - Shutdown completed.
+2026-02-10 02:57:30 - Stopping service [Tomcat]
+2026-02-10 02:57:30 - 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-02-10 02:56:59 - Application run failed
+2026-02-10 02:57:30 - Application run failed
 org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/cokmall/core/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure dispatcherTypeMatchers after anyRequest
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:895)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:848)
@@ -121,7 +120,7 @@ Caused by: java.lang.IllegalStateException: Can't configure dispatcherTypeMatche
 	at com.cokmall.core.config.SecurityConfig.lambda$3(SecurityConfig.java:122)
 	at org.springframework.security.config.annotation.web.builders.HttpSecurity.authorizeHttpRequests(HttpSecurity.java:1467)
 	at com.cokmall.core.config.SecurityConfig.securityFilterChain(SecurityConfig.java:121)
-	at com.cokmall.core.config.SecurityConfig$$SpringCGLIB$$0.CGLIB$securityFilterChain$0(<generated>)
+	at com.cokmall.core.config.SecurityConfig$$SpringCGLIB$$0.CGLIB$securityFilterChain$1(<generated>)
 	at com.cokmall.core.config.SecurityConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
@@ -133,8 +132,8 @@ Caused by: java.lang.IllegalStateException: Can't configure dispatcherTypeMatche
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  22.506 s
-[INFO] Finished at: 2026-02-10T02:56:59+01:00
+[INFO] Total time:  15.226 s
+[INFO] Finished at: 2026-02-10T02:57:30+01:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.2:run (default-cli) on project backend: Process terminated with exit code: 1 -> [Help 1]
 [ERROR] 

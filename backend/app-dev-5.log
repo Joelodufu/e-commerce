@@ -1,0 +1,148 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.cokmall:backend >-------------------------
+[INFO] Building COK Mall Backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.2:run (default-cli) > test-compile @ backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ backend ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ backend ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ backend ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot:3.2.2:run (default-cli) < test-compile @ backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.2:run (default-cli) @ backend ---
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar
+Progress (1): 0.9/77 kBProgress (2): 0.9/77 kB | 0.9/459 kBProgress (2): 2.3/77 kB | 0.9/459 kBProgress (2): 3.7/77 kB | 0.9/459 kBProgress (2): 5.0/77 kB | 0.9/459 kBProgress (2): 6.4/77 kB | 0.9/459 kBProgress (2): 6.4/77 kB | 2.3/459 kBProgress (2): 7.8/77 kB | 2.3/459 kBProgress (2): 7.8/77 kB | 3.7/459 kBProgress (2): 9.1/77 kB | 3.7/459 kBProgress (2): 9.1/77 kB | 5.0/459 kBProgress (2): 11/77 kB | 5.0/459 kB Progress (2): 11/77 kB | 6.4/459 kBProgress (2): 12/77 kB | 6.4/459 kBProgress (2): 12/77 kB | 7.8/459 kBProgress (2): 13/77 kB | 7.8/459 kBProgress (2): 13/77 kB | 9.1/459 kBProgress (2): 13/77 kB | 11/459 kB Progress (2): 15/77 kB | 11/459 kBProgress (2): 15/77 kB | 12/459 kBProgress (2): 16/77 kB | 12/459 kBProgress (2): 16/77 kB | 12/459 kBProgress (2): 16/77 kB | 14/459 kBProgress (2): 16/77 kB | 15/459 kBProgress (2): 16/77 kB | 16/459 kBProgress (2): 16/77 kB | 18/459 kBProgress (2): 16/77 kB | 19/459 kBProgress (2): 16/77 kB | 21/459 kBProgress (2): 17/77 kB | 21/459 kBProgress (2): 17/77 kB | 22/459 kBProgress (2): 19/77 kB | 22/459 kBProgress (2): 19/77 kB | 23/459 kBProgress (2): 20/77 kB | 23/459 kBProgress (2): 20/77 kB | 25/459 kBProgress (2): 20/77 kB | 26/459 kBProgress (2): 21/77 kB | 26/459 kBProgress (2): 21/77 kB | 27/459 kBProgress (2): 23/77 kB | 27/459 kBProgress (2): 23/77 kB | 29/459 kBProgress (2): 24/77 kB | 29/459 kBProgress (2): 26/77 kB | 29/459 kBProgress (2): 26/77 kB | 30/459 kBProgress (2): 27/77 kB | 30/459 kBProgress (2): 27/77 kB | 31/459 kBProgress (2): 28/77 kB | 31/459 kBProgress (2): 30/77 kB | 31/459 kBProgress (2): 30/77 kB | 33/459 kBProgress (2): 31/77 kB | 33/459 kBProgress (2): 31/77 kB | 34/459 kBProgress (2): 32/77 kB | 34/459 kBProgress (2): 32/77 kB | 36/459 kBProgress (2): 34/77 kB | 36/459 kBProgress (2): 34/77 kB | 37/459 kBProgress (2): 35/77 kB | 37/459 kBProgress (2): 35/77 kB | 38/459 kBProgress (2): 37/77 kB | 38/459 kBProgress (2): 38/77 kB | 38/459 kBProgress (2): 38/77 kB | 40/459 kBProgress (2): 38/77 kB | 41/459 kBProgress (2): 39/77 kB | 41/459 kBProgress (2): 39/77 kB | 42/459 kBProgress (2): 41/77 kB | 42/459 kBProgress (2): 42/77 kB | 42/459 kBProgress (2): 42/77 kB | 44/459 kBProgress (2): 43/77 kB | 44/459 kBProgress (2): 43/77 kB | 45/459 kBProgress (2): 45/77 kB | 45/459 kBProgress (2): 45/77 kB | 47/459 kBProgress (2): 46/77 kB | 47/459 kBProgress (2): 46/77 kB | 48/459 kBProgress (2): 47/77 kB | 48/459 kBProgress (2): 47/77 kB | 49/459 kBProgress (2): 49/77 kB | 49/459 kBProgress (2): 49/77 kB | 51/459 kBProgress (2): 50/77 kB | 51/459 kBProgress (2): 50/77 kB | 52/459 kBProgress (2): 52/77 kB | 52/459 kBProgress (2): 52/77 kB | 53/459 kBProgress (2): 53/77 kB | 53/459 kBProgress (2): 53/77 kB | 55/459 kBProgress (2): 54/77 kB | 55/459 kBProgress (2): 56/77 kB | 55/459 kBProgress (2): 56/77 kB | 59/459 kBProgress (2): 60/77 kB | 59/459 kBProgress (2): 60/77 kB | 63/459 kBProgress (2): 64/77 kB | 63/459 kBProgress (2): 64/77 kB | 67/459 kBProgress (2): 68/77 kB | 67/459 kBProgress (2): 68/77 kB | 72/459 kBProgress (2): 73/77 kB | 72/459 kBProgress (2): 77 kB | 72/459 kB   Progress (2): 77 kB | 76/459 kBProgress (2): 77 kB | 80/459 kBProgress (2): 77 kB | 84/459 kBProgress (2): 77 kB | 89/459 kBProgress (2): 77 kB | 93/459 kBProgress (2): 77 kB | 97/459 kBProgress (2): 77 kB | 101/459 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar (77 kB at 50 kB/s)
+Progress (1): 105/459 kBProgress (1): 110/459 kBProgress (1): 114/459 kBProgress (1): 118/459 kBProgress (1): 122/459 kBProgress (1): 127/459 kBProgress (1): 131/459 kBProgress (1): 135/459 kBProgress (1): 139/459 kBProgress (1): 143/459 kBProgress (1): 148/459 kBProgress (1): 152/459 kBProgress (1): 156/459 kBProgress (1): 160/459 kBProgress (1): 165/459 kBProgress (1): 169/459 kBProgress (1): 173/459 kBProgress (1): 177/459 kBProgress (1): 181/459 kBProgress (1): 186/459 kBProgress (1): 190/459 kBProgress (1): 194/459 kBProgress (1): 198/459 kBProgress (1): 203/459 kBProgress (1): 207/459 kBProgress (1): 211/459 kBProgress (1): 215/459 kBProgress (1): 219/459 kBProgress (1): 224/459 kBProgress (1): 240/459 kBProgress (1): 256/459 kBProgress (1): 273/459 kBProgress (1): 274/459 kBProgress (1): 291/459 kBProgress (1): 307/459 kBProgress (1): 324/459 kBProgress (1): 340/459 kBProgress (1): 356/459 kBProgress (1): 373/459 kBProgress (1): 389/459 kBProgress (1): 406/459 kBProgress (1): 422/459 kBProgress (1): 438/459 kBProgress (1): 455/459 kBProgress (1): 459 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar (459 kB at 231 kB/s)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2026-02-10 03:08:54 - Starting CokmallApplication using Java 21.0.8 with PID 25988 (C:\PROJECT\cokupdated\backend\target\classes started by Joel Odufu in C:\PROJECT\cokupdated\backend)
+2026-02-10 03:08:54 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2026-02-10 03:08:54 - The following 1 profile is active: "dev"
+2026-02-10 03:08:56 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-10 03:08:56 - Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+2026-02-10 03:08:57 - Tomcat initialized with port 8080 (http)
+2026-02-10 03:08:57 - Starting service [Tomcat]
+2026-02-10 03:08:57 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-02-10 03:08:57 - Initializing Spring embedded WebApplicationContext
+2026-02-10 03:08:57 - Root WebApplicationContext: initialization completed in 2878 ms
+2026-02-10 03:08:58 - Filter 'jwtAuthenticationFilter' configured for use
+2026-02-10 03:08:58 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-10 03:08:58 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-02-10 03:08:58 - HHH000026: Second-level cache disabled
+2026-02-10 03:08:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-10 03:08:58 - HikariPool-1 - Starting...
+2026-02-10 03:08:59 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4be460e5
+2026-02-10 03:08:59 - HikariPool-1 - Start completed.
+2026-02-10 03:08:59 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-10 03:09:00 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-10 03:09:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-10 03:09:01 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-10 03:09:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-10 03:09:02 - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2026-02-10 03:09:02 - Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-02-10 03:09:02 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/cokmall/core/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure dispatcherTypeMatchers after anyRequest
+2026-02-10 03:09:02 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-10 03:09:02 - HikariPool-1 - Shutdown initiated...
+2026-02-10 03:09:02 - HikariPool-1 - Shutdown completed.
+2026-02-10 03:09:02 - Stopping service [Tomcat]
+2026-02-10 03:09:02 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-10 03:09:02 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/cokmall/core/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure dispatcherTypeMatchers after anyRequest
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:895)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:848)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.cokmall.CokmallApplication.main(CokmallApplication.java:32)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/cokmall/core/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure dispatcherTypeMatchers after anyRequest
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:639)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1653)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1511)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1392)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:887)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure dispatcherTypeMatchers after anyRequest
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:647)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalStateException: Can't configure dispatcherTypeMatchers after anyRequest
+	at org.springframework.util.Assert.state(Assert.java:76)
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.dispatcherTypeMatchers(AbstractRequestMatcherRegistry.java:159)
+	at com.cokmall.core.config.SecurityConfig.lambda$securityFilterChain$2(SecurityConfig.java:122)
+	at org.springframework.security.config.annotation.web.builders.HttpSecurity.authorizeHttpRequests(HttpSecurity.java:1467)
+	at com.cokmall.core.config.SecurityConfig.securityFilterChain(SecurityConfig.java:121)
+	at com.cokmall.core.config.SecurityConfig$$SpringCGLIB$$0.CGLIB$securityFilterChain$2(<generated>)
+	at com.cokmall.core.config.SecurityConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.cokmall.core.config.SecurityConfig$$SpringCGLIB$$0.securityFilterChain(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140)
+	... 38 common frames omitted
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.213 s
+[INFO] Finished at: 2026-02-10T03:09:02+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.2:run (default-cli) on project backend: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
